@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,6 +18,19 @@
             color: #fff;
             text-align: center;
             padding: 1em 0;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
         }
 
         section {
@@ -58,24 +72,35 @@
         <h1>Tienda en Línea</h1>
     </header>
 
+    <nav>
+        <a href="#inicio"><i class="fas fa-home"></i> Inicio</a>
+        <a href="#acerca"><i class="fas fa-info-circle"></i> Acerca de</a>
+        <a href="#productos"><i class="fas fa-box"></i> Productos</a>
+        <a href="#galeria"><i class="fas fa-images"></i> Galería</a>
+        <a href="#carrito"><i class="fas fa-shopping-cart"></i> Carrito</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <!-- Contenido de la sección de Inicio -->
+    </section>
+
+    <section id="acerca">
+        <h2>Acerca de</h2>
+        <!-- Contenido de la sección Acerca de -->
+    </section>
+
     <section id="productos">
         <h2>Productos</h2>
         <div class="product-gallery">
-            <div class="product">
-                <img src="producto1.jpg" alt="Producto 1">
-                <p>Producto 1</p>
-                <button>Agregar al Carrito</button>
-            </div>
-            <!-- Repite para otros productos -->
+            <!-- Contenido de la galería de productos -->
         </div>
     </section>
 
     <section id="galeria">
         <h2>Galería</h2>
         <div class="gallery">
-            <img src="imagen1.jpg" alt="Descripción de la imagen 1">
-            <img src="imagen2.jpg" alt="Descripción de la imagen 2">
-            <!-- Agrega más imágenes según sea necesario -->
+            <!-- Contenido de la galería de imágenes -->
         </div>
     </section>
 
